@@ -8,11 +8,13 @@
 
 #include <stdio.h>
 
-void main()
+int main()
 {
 	char x = '\0';
 	printf("Enter a character: ");
 	fflush(stdout);
 	scanf("%c",&x);
 	printf("ASCII Value of %c = %d\n",x,x);
+
+	return 0;
 }

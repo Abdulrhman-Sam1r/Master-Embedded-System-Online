@@ -8,11 +8,13 @@
 
 #include <stdio.h>
 
-void main()
+int main()
 {
 	int x = 0 ;
 	printf("Enter an integer: ");
 	fflush(stdout);
 	scanf("%d",&x);
 	printf("You entered: %d\n",x);
+
+	return 0;
 }

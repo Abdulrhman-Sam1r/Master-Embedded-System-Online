@@ -7,7 +7,8 @@
 
 #include <stdio.h>
 
-void main()
+int main()
 {
-	printf("C Programming");
+	printf("C Programming \n");
+	return 0;
 }

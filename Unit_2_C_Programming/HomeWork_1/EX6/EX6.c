@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 
-void main()
+int main()
 {
 	float a = 0 , b = 0 , c = 0;
 	printf("Enter value of a: ");
@@ -24,4 +24,6 @@ void main()
 
 	printf("After swapping, value of a = %.2f\n",a);
 	printf("After swapping, value of b = %.2f\n",b);
+
+	return 0;
 }
